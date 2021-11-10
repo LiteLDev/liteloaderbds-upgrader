@@ -20,6 +20,8 @@
 - MD5 将被储存到文件名`.md5.verify`的文本文件中。下载时带上MD5信息一起下载，并校验 MD5 值是否符合，即可判断此文件下载是否完整正确。后面将介绍如何下载此文件的方法
 - 根目录的 IgnoreDirs.conf 文件记录了不需要计算 MD5 校验值的目录列表。如果你有新的目录需要被排除，按同样的格式将路径写入到此文件即可。一行一个目录路径，并将修改好的文件push到仓库中
 
+<br>
+
 ------
 
 ## Join
@@ -28,9 +30,11 @@
 - 以后，您将负责维护此文件夹，可以在不违反 Github 存储库相关规定的前提下自由增减文件夹内内容。
  - 不要去修改别人的文件夹，除非得到授意，如您发现有人擅自修改您的文件夹内容，请向我们提出举报
 
+<br>
+
 ## Usage
 
-> 本项目采用中继加速的思想，引导更新程序访问最新推送版本的文件，同时又可以使用 JSD 的全球加速，避免了需要频繁刷新缓存造成的问题
+本项目采用中继加速的思想，引导更新程序访问最新推送版本的文件，同时又可以使用 JSD 的全球加速，避免了需要频繁刷新缓存造成的问题
 
 ### 【基础操作】如何上传和下载文件
 
@@ -55,6 +59,8 @@ let md5Url = "https://cdn.jsdelivr.net/gh/LiteLDev/Upgrade/" + dir + "/Test/vers
 
 **切记 **使用上述方法使用随机文件夹名中继访问你的文件。否则，你对JSD文件的直接访问极有可能存在缓存，并且难以刷新
 
+<br>
+
 ### 【进阶操作】 推送时运行自定义脚本
 
  > 此功能为方便开发者而提供。在每次Push时，Github Actions将运行目录下所有的`__AUTORUN__.sh`文件。
@@ -73,6 +79,8 @@ let md5Url = "https://cdn.jsdelivr.net/gh/LiteLDev/Upgrade/" + dir + "/Test/vers
  ```
   - 编写完成后，请务必关注脚本在Actions中的运行情况。如果导致Actions中断，请立即修复或删除你的脚本。
 
+<br>
+
 ## Attention !
 
  - **不要修改 `id.json` 文件**
@@ -83,10 +91,13 @@ let md5Url = "https://cdn.jsdelivr.net/gh/LiteLDev/Upgrade/" + dir + "/Test/vers
  - 如果使用`__AUTORUN__.sh`，**及时修改脚本中的错误(如果有)** 因为这会中断Actions进程。
  - 存储的内容不得违反Jsdelivr或Github相关政策
 
- > LXL Team保留对所有文件和成员操作权限的管理权力，<br>
+ > LL Developers Team保留对所有文件和成员操作权限的管理权力，<br>
  > 如果你对以上内容有异议，请勿使用本存储库服务。如果你违反了以上TOS，您的相关权益可能被撤销。
 
+<br>
+
 ## Credits
+
  - JSD 加速仓库的想法和实现 [@RedbeanW](https://github.com/Redbeanw44602)
  - MD5 自动计算程序 [@yqs112358](https://github.com/yqs112358)
  - 一切的基础 [@jsdelivr](https://github.com/jsdelivr)
