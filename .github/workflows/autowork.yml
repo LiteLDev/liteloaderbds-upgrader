@@ -1,0 +1,94 @@
+name: AutoCron
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    env:
+      ID_FILE: id.json
+      REPO_NAME: Cloud
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Install Depends
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: |
+        curl -L -o jq.exe https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win32.exe
+      shell: bash
+
+    - name: Remove Old Files
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: |
+        rm -rf $(cat ${{env.ID_FILE}} | jq.exe -r ".token")
+        rm -rf ./${{env.ID_FILE}}
+      shell: bash
+
+    - name: Build SHA1 Dirs & Make ID File
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: |
+        sha=${{github.sha}}
+        mkdir "$sha"
+        cd ..
+        mkdir tmp
+        cd ${{env.REPO_NAME}}
+        cp -R ./* ../tmp
+        cp -R ../tmp/* ./$sha
+        rm -rf ../tmp
+        echo "{\"token\": \"$sha\"}" >> ${{env.ID_FILE}}
+      shell: bash
+    
+    - name: Run Custom Autowork
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: |
+        function RDIR()
+        {
+          for tpath in `ls "$1"`
+          do
+            if [ -d $1$tpath ]
+            then
+              echo $1
+              echo $tpath
+              RDIR $1$tpath
+            elif [ "${tpath##*/}" = "__AUTORUN__.sh" ]
+            then
+              cd "$1"
+              bash "__AUTORUN__.sh"
+              cd "${{github.workspace}}"
+            fi
+          done
+        }
+        RDIR "./${{github.sha}}/"
+      shell: bash
+
+    - name: Calculate MD5
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: |
+        sha=${{github.sha}}
+        cp lib/AutoCalcMD5.exe $sha/
+        cp IgnoreDirs.conf $sha/
+        cd $sha
+        ./AutoCalcMD5.exe
+      shell: bash
+
+    - name: Cleanup
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: |
+        fn=./${{github.sha}}
+        rm -rf $fn/lib
+        rm -rf $fn/*.md5
+        rm -rf $fn/AutoCalcMD5.exe
+        rm -rf $fn/IgnoreDirs.conf
+        rm -rf $fn/jq.exe
+        rm -rf $fn/README.md
+        rm -rf $fn/_config.yml
+        rm -rf $fn/CNAME
+        rm -rf jq.exe
+      shell: bash
+      
+    - name: Add & Commit
+      uses: stefanzweifel/git-auto-commit-action@v4
