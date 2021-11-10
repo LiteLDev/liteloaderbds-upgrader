@@ -22,8 +22,6 @@
 
 <br>
 
-------
-
 ## Join
 
 - 在本 Repo 中新建一个需要使用此服务的插件的文件夹。建议每个插件使用一个单独的文件夹，以保持逻辑清晰
@@ -36,6 +34,8 @@
 
 本项目采用中继加速的思想，引导更新程序访问最新推送版本的文件，同时又可以使用 JSD 的全球加速，避免了需要频繁刷新缓存造成的问题
 
+<br>
+
 ### 【基础操作】如何上传和下载文件
 
 修改根目录对应文件夹中的文件，推送到仓库即可。不要修改随机文件夹中的内容
@@ -43,11 +43,11 @@
 例如您在 **Test** 文件夹新建了 **version.json** 文件。接下来，您可以使用以下方法访问到您的文件
 
 ```javascript
-// 访问中继索引文件
+// 使用Cloudflare CDN下载中继文件，绕过缓存，获取中继目录名后再使用速度较快的Jsdelivr进行加速
 let remote = HttpGet("https://upgrade.litebds.com/id.json")
-// 单纯使用Jsdelivr并不能绕过id缓存。因此使用Cloudflare CDN下载中继文件，获取中继目录名后再使用速度较快的Jsdelivr进行加速
-let json = JSON.parse(remote.data)	//Json格式：{ "token": "中继目录名" }
-let dir = json.token;	 //获取中继目录名
+
+let json = JSON.parse(remote.data)		//Json格式：{ "token": "中继目录名" }
+let dir = json.token;	 			   //获取中继目录名
 
 // *目标文件的下载地址（中间加上了"token"目录）
 let downloadUrl = "https://cdn.jsdelivr.net/gh/LiteLDev/Upgrade/" + dir + "/Test/version.json"
@@ -55,9 +55,9 @@ let downloadUrl = "https://cdn.jsdelivr.net/gh/LiteLDev/Upgrade/" + dir + "/Test
 // *目标文件的MD5校验数据地址
 let md5Url = "https://cdn.jsdelivr.net/gh/LiteLDev/Upgrade/" + dir + "/Test/version.json.md5.verify"
 ```
-使用上面给出的两个拼接的下载地址，下载你需要的目标文件和MD5校验数据即可。
+使用上面给出的两个拼接的下载地址，下载你需要的目标文件和 MD5 校验数据即可。
 
-**切记 **使用上述方法使用随机文件夹名中继访问你的文件。否则，你对JSD文件的直接访问极有可能存在缓存，并且难以刷新
+**切记** 使用上述方法使用随机文件夹名中继访问你的文件。如果直接访问 JSD 上的文件，会由于缓存导致更新严重滞后，并且国内部分的缓存也难以通过通用方法刷新
 
 <br>
 
