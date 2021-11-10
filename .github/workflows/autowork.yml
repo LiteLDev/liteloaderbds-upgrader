@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     env:
       ID_FILE: id.json
-      REPO_NAME: Cloud
+      REPO_NAME: Upgrade
 
     steps:
     - uses: actions/checkout@v2
