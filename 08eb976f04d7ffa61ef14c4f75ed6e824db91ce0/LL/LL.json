@@ -1,0 +1,30 @@
+{
+    "notice":[],
+    "1.18.1":
+    {
+        "notice":[],
+        "Version":"2.0.1",
+        "Files":[
+            {
+                "Name":"LiteLoader.dll",
+                "Path":"/LL/1.18.1/",
+                "Install":".",
+                "IsBinary":true
+            }
+        ]
+    },
+    "1.18.0":
+    {
+        "notice":[],
+        "Version":"2.0.1",
+        "Files":[
+            {
+                "Name":"LiteLoader.dll",
+                "Path":"/LL/1.18.1/",
+                "Install":".",
+                "IsBinary":true
+            }
+        ]
+    },
+    "OtherFiles": []
+}
