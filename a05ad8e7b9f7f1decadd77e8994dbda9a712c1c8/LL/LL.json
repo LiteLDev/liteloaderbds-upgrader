@@ -3,7 +3,7 @@
     "1.18.1":
     {
         "notice":[],
-        "Version":"2.0.1",
+        "Version":"2.0.0",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
@@ -16,7 +16,7 @@
     "1.18.0":
     {
         "notice":[],
-        "Version":"2.0.1",
+        "Version":"2.0.0",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
