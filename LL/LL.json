@@ -1,14 +1,39 @@
 {
     "notice":[],
-    "1.18.1":
+    "1.18.2":
     {
         "notice":[],
-        "Version":"2.0.0",
+        "Version":"2.0.3",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
-                "Path":"/LL/1.18.1/",
+                "Path":"/LL/1.18.2/",
                 "Install":".",
+                "IsBinary":true
+            },
+            {
+                "Name":"LLUnifiedOutput.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":"./plugins/LiteLoader/",
+                "IsBinary":true
+            }
+        ]
+    },
+    "1.18.1":
+    {
+        "notice":[],
+        "Version":"2.0.3",
+        "Files":[
+            {
+                "Name":"LiteLoader.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":".",
+                "IsBinary":true
+            },
+            {
+                "Name":"LLUnifiedOutput.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":"./plugins/LiteLoader/",
                 "IsBinary":true
             }
         ]
@@ -16,12 +41,18 @@
     "1.18.0":
     {
         "notice":[],
-        "Version":"2.0.0",
+        "Version":"2.0.3",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
-                "Path":"/LL/1.18.1/",
+                "Path":"/LL/1.18.2/",
                 "Install":".",
+                "IsBinary":true
+            },
+            {
+                "Name":"LLUnifiedOutput.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":"./plugins/LiteLoader/",
                 "IsBinary":true
             }
         ]
