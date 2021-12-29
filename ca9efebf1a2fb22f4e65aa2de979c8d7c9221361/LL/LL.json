@@ -16,12 +16,6 @@
                 "Path":"/LL/1.18.2/",
                 "Install":"./plugins/LiteLoader/",
                 "IsBinary":true
-            },
-            {
-                "Name":"SymDB2.exe",
-                "Path":"/LL/1.18.2/",
-                "Install":".",
-                "IsBinary":true
             }
         ]
     },
@@ -41,12 +35,6 @@
                 "Path":"/LL/1.18.2/",
                 "Install":"./plugins/LiteLoader/",
                 "IsBinary":true
-            },
-            {
-                "Name":"SymDB2.exe",
-                "Path":"/LL/1.18.2/",
-                "Install":".",
-                "IsBinary":true
             }
         ]
     },
@@ -65,12 +53,6 @@
                 "Name":"LLUnifiedOutput.dll",
                 "Path":"/LL/1.18.2/",
                 "Install":"./plugins/LiteLoader/",
-                "IsBinary":true
-            },
-            {
-                "Name":"SymDB2.exe",
-                "Path":"/LL/1.18.2/",
-                "Install":".",
                 "IsBinary":true
             }
         ]
