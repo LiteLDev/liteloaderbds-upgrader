@@ -1,0 +1,43 @@
+{
+    "notice":[],
+    "1.18.2":
+    {
+        "notice":[],
+        "Version":"0.0.211230",
+        "Files":[
+            {
+                "Name":"LLTpa.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":".",
+                "IsBinary":true
+            }
+        ]
+    },
+    "1.18.1":
+    {
+        "notice":[],
+        "Version":"0.0.211230",
+        "Files":[
+            {
+                "Name":"LLTpa.dll",
+                "Path":"/LLtpa/1.18.2/",
+                "Install":".",
+                "IsBinary":true
+            }
+        ]
+    },
+    "1.18.0":
+    {
+        "notice":[],
+        "Version":"0.0.211230",
+        "Files":[
+            {
+                "Name":"LLTpa.dll",
+                "Path":"/LLtpa/1.18.2/",
+                "Install":".",
+                "IsBinary":true
+            }
+        ]
+    },
+    "OtherFiles": []
+}
