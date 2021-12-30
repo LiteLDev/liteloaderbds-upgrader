@@ -7,7 +7,7 @@
         "Files":[
             {
                 "Name":"LLTpa.dll",
-                "Path":"/LL/1.18.2/",
+                "Path":"/LLtpa/1.18.2/",
                 "Install":".",
                 "IsBinary":true
             }
