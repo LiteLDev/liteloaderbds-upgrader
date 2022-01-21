@@ -3,7 +3,7 @@
     "1.18.2":
     {
         "notice":[],
-        "Version":"2.0.211230",
+        "Version":"2.0.220120",
         "Files":[
             {
                 "Name":"LLTpa.dll",
@@ -16,7 +16,7 @@
     "1.18.1":
     {
         "notice":[],
-        "Version":"2.0.211230",
+        "Version":"2.0.220120",
         "Files":[
             {
                 "Name":"LLTpa.dll",
@@ -29,7 +29,7 @@
     "1.18.0":
     {
         "notice":[],
-        "Version":"2.0.211230",
+        "Version":"2.0.220120",
         "Files":[
             {
                 "Name":"LLTpa.dll",
