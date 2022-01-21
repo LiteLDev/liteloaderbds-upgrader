@@ -3,11 +3,11 @@
     "1.18.2":
     {
         "notice":[],
-        "Version":"2.0.220120",
+        "Version":"2.0.220121",
         "Files":[
             {
-                "Name":"LLTpa.dll",
-                "Path":"/LLtpa/1.18.2/",
+                "Name":"LLHelper.dll",
+                "Path":"/LLhelper/1.18.2/",
                 "Install":"./plugins",
                 "IsBinary":true
             }
@@ -16,11 +16,11 @@
     "1.18.1":
     {
         "notice":[],
-        "Version":"2.0.220120",
+        "Version":"2.0.220121",
         "Files":[
             {
-                "Name":"LLTpa.dll",
-                "Path":"/LLtpa/1.18.2/",
+                "Name":"LLHelper.dll",
+                "Path":"/LLhelper/1.18.2/",
                 "Install":"./plugins",
                 "IsBinary":true
             }
@@ -29,11 +29,11 @@
     "1.18.0":
     {
         "notice":[],
-        "Version":"2.0.220120",
+        "Version":"2.0.220121",
         "Files":[
             {
-                "Name":"LLTpa.dll",
-                "Path":"/LLtpa/1.18.2/",
+                "Name":"LLHelper.dll",
+                "Path":"/LLhelper/1.18.2/",
                 "Install":"./plugins",
                 "IsBinary":true
             }
