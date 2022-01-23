@@ -3,12 +3,12 @@
     "1.18.2":
     {
         "notice":[],
-        "Version":"2.0.220121",
+        "Version":"2.0.8",
         "Files":[
             {
-                "Name":"LLTpa.dll",
-                "Path":"/LLtpa/1.18.2/",
-                "Install":"./plugins",
+                "Name":"LiteLoader.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":".",
                 "IsBinary":true
             }
         ]
@@ -16,12 +16,12 @@
     "1.18.1":
     {
         "notice":[],
-        "Version":"2.0.220121",
+        "Version":"2.0.8",
         "Files":[
             {
-                "Name":"LLTpa.dll",
-                "Path":"/LLtpa/1.18.2/",
-                "Install":"./plugins",
+                "Name":"LiteLoader.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":".",
                 "IsBinary":true
             }
         ]
@@ -29,12 +29,12 @@
     "1.18.0":
     {
         "notice":[],
-        "Version":"2.0.220121",
+        "Version":"2.0.8",
         "Files":[
             {
-                "Name":"LLTpa.dll",
-                "Path":"/LLtpa/1.18.2/",
-                "Install":"./plugins",
+                "Name":"LiteLoader.dll",
+                "Path":"/LL/1.18.2/",
+                "Install":".",
                 "IsBinary":true
             }
         ]
