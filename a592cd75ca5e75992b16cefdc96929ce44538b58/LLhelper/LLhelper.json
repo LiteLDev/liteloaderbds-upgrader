@@ -1,0 +1,43 @@
+{
+    "notice":[],
+    "1.18.10":
+    {
+        "notice":[],
+        "Version":"2.1.1",
+        "Files":[
+            {
+                "Name":"LLHelper.dll",
+                "Path":"/LLhelper/1.18.11/",
+                "Install":"./plugins",
+                "IsBinary":true
+            }
+        ]
+    },
+    "1.18.11":
+    {
+        "notice":[],
+        "Version":"2.1.1",
+        "Files":[
+            {
+                "Name":"LLHelper.dll",
+                "Path":"/LLhelper/1.18.11/",
+                "Install":"./plugins",
+                "IsBinary":true
+            }
+        ]
+    },
+    "1.18.12":
+    {
+        "notice":[],
+        "Version":"2.1.1",
+        "Files":[
+            {
+                "Name":"LLHelper.dll",
+                "Path":"/LLhelper/1.18.11/",
+                "Install":"./plugins",
+                "IsBinary":true
+            }
+        ]
+    },
+    "OtherFiles": []
+}
