@@ -3,7 +3,7 @@
     "1.18.10":
     {
         "notice":[],
-        "Version":"2.1.2",
+        "Version":"2.1.3",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
@@ -19,6 +19,18 @@
             },
             {
                 "Name":"LiteLoader.Lua.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"LLMoney.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins",
+                "IsBinary":true
+            },
+            {
+                "Name":"CrashLogger_Daemon.exe",
                 "Path":"/LL/1.18.11/",
                 "Install":"./plugins/LiteLoader",
                 "IsBinary":true
@@ -28,7 +40,7 @@
     "1.18.11":
     {
         "notice":[],
-        "Version":"2.1.2",
+        "Version":"2.1.3",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
@@ -44,16 +56,28 @@
             },
             {
                 "Name":"LiteLoader.Lua.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"LLMoney.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins",
+                "IsBinary":true
+            },
+            {
+                "Name":"CrashLogger_Daemon.exe",
                 "Path":"/LL/1.18.11/",
                 "Install":"./plugins/LiteLoader",
                 "IsBinary":true
             }
         ]
     },
-    "1.18.12":
+	"1.18.12":
     {
         "notice":[],
-        "Version":"2.1.2",
+        "Version":"2.1.3",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
@@ -69,6 +93,18 @@
             },
             {
                 "Name":"LiteLoader.Lua.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"LLMoney.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins",
+                "IsBinary":true
+            },
+            {
+                "Name":"CrashLogger_Daemon.exe",
                 "Path":"/LL/1.18.11/",
                 "Install":"./plugins/LiteLoader",
                 "IsBinary":true
