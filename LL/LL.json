@@ -22,6 +22,24 @@
                 "Path":"/LL/1.18.11/",
                 "Install":"./plugins/LiteLoader",
                 "IsBinary":true
+            },
+            {
+                "Name":"CrashLogger.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"BaseLib.js",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/lib",
+                "IsBinary":true
+            },
+            {
+                "Name":"BaseLib.lua",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/lib",
+                "IsBinary":true
             }
         ]
     },
@@ -47,6 +65,24 @@
                 "Path":"/LL/1.18.11/",
                 "Install":"./plugins/LiteLoader",
                 "IsBinary":true
+            },
+            {
+                "Name":"CrashLogger.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"BaseLib.js",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/lib",
+                "IsBinary":true
+            },
+            {
+                "Name":"BaseLib.lua",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/lib",
+                "IsBinary":true
             }
         ]
     },
@@ -71,6 +107,24 @@
                 "Name":"LiteLoader.Lua.dll",
                 "Path":"/LL/1.18.11/",
                 "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"CrashLogger.dll",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"BaseLib.js",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/lib",
+                "IsBinary":true
+            },
+            {
+                "Name":"BaseLib.lua",
+                "Path":"/LL/1.18.11/",
+                "Install":"./plugins/lib",
                 "IsBinary":true
             }
         ]
