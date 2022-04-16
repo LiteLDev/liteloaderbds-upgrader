@@ -2,7 +2,7 @@
 -- For require
 -- ---------------------
 package.path = "plugins/lib/?.lua;"..package.path
- 
+
 
 -- ---------------------
 -- For Compatibility
@@ -20,5 +20,4 @@ LXL_CustomForm = LLSE_CustomForm
 LXL_Item = LLSE_Item
 LXL_Player = LLSE_Player
 LXL_Objective = LLSE_Objective
-
 
