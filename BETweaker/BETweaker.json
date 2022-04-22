@@ -1,39 +1,13 @@
 {
     "notice":[],
-    "1.18.10":
+    "1.18.30":
     {
         "notice":[],
-        "Version":"1.0.7",
+        "Version":"1.0.8",
         "Files":[
             {
                 "Name":"BETweaker.dll",
-                "Path":"/BETweaker/1.18.12/",
-                "Install":"./plugins",
-                "IsBinary":true
-            }
-        ]
-    },
-    "1.18.11":
-    {
-        "notice":[],
-        "Version":"1.0.7",
-        "Files":[
-            {
-                "Name":"BETweaker.dll",
-                "Path":"/BETweaker/1.18.12/",
-                "Install":"./plugins",
-                "IsBinary":true
-            }
-        ]
-    },
-    "1.18.12":
-    {
-        "notice":[],
-        "Version":"1.0.7",
-        "Files":[
-            {
-                "Name":"BETweaker.dll",
-                "Path":"/BETweaker/1.18.12/",
+                "Path":"/BETweaker/1.18.30/",
                 "Install":"./plugins",
                 "IsBinary":true
             }
