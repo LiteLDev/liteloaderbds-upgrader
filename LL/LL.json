@@ -3,7 +3,7 @@
     "1.18.31":
     {
         "notice":[],
-        "Version":"2.2.1",
+        "Version":"2.2.2",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
@@ -19,6 +19,12 @@
             },
             {
                 "Name":"LiteLoader.Lua.dll",
+                "Path":"/LL/1.18.30/",
+                "Install":"./plugins/LiteLoader",
+                "IsBinary":true
+            },
+            {
+                "Name":"CrashLogger_Daemon.exe",
                 "Path":"/LL/1.18.30/",
                 "Install":"./plugins/LiteLoader",
                 "IsBinary":true
