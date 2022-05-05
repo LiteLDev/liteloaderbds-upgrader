@@ -1,0 +1,30 @@
+{
+    "notice":[],
+    "1.18.30":
+    {
+        "notice":[],
+        "Version":"2.2.2",
+        "Files":[
+            {
+                "Name":"LLTpa.dll",
+                "Path":"/LLtpa/1.18.30/",
+                "Install":"./plugins",
+                "IsBinary":true
+            }
+        ]
+    },
+    "1.18.31":
+    {
+        "notice":[],
+        "Version":"2.2.2",
+        "Files":[
+            {
+                "Name":"LLTpa.dll",
+                "Path":"/LLtpa/1.18.30/",
+                "Install":"./plugins",
+                "IsBinary":true
+            }
+        ]
+    },
+    "OtherFiles": []
+}
