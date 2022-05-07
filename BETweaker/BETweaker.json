@@ -1,26 +1,14 @@
 {
     "notice":[],
-    "1.18.31":
+    "1.18.32":
     {
         "notice":[],
-        "Version":"1.0.0",
+        "Version":"1.0.13",
         "Files":[
             {
                 "Name":"BETweaker.dll",
                 "Path":"/BETweaker/1.18.30/",
                 "Install":"./plugins",
-                "IsBinary":true
-            },
-            {
-                "Name":"en_US.lang",
-                "Path":"/BETweaker/1.18.30/",
-                "Install":"./resource_packs/BETweaker/texts",
-                "IsBinary":true
-            },
-            {
-                "Name":"zh_CN.lang",
-                "Path":"/BETweaker/1.18.30/",
-                "Install":"./resource_packs/BETweaker/texts",
                 "IsBinary":true
             }
         ]

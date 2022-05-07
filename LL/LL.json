@@ -1,9 +1,9 @@
 {
     "notice":[],
-    "1.18.31":
+    "1.18.32":
     {
         "notice":[],
-        "Version":"2.2.2",
+        "Version":"2.2.3",
         "Files":[
             {
                 "Name":"LiteLoader.dll",
@@ -24,9 +24,9 @@
                 "IsBinary":true
             },
             {
-                "Name":"CrashLogger_Daemon.exe",
+                "Name":"LLMoney.dll",
                 "Path":"/LL/1.18.30/",
-                "Install":"./plugins/LiteLoader",
+                "Install":"./plugins",
                 "IsBinary":true
             }
         ]
