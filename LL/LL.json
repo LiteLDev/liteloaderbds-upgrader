@@ -1,34 +1,24 @@
 {
     "notice":[],
-    "1.18.32":
+    "1.19.1":
     {
         "notice":[],
-        "Version":"2.2.3",
+        "Version":"2.3.0",
         "Files":[
-            {
-                "Name":"LiteLoader.dll",
-                "Path":"/LL/1.18.30/",
-                "Install":".",
-                "IsBinary":true
-            },
-            {
-                "Name":"LiteLoader.Js.dll",
-                "Path":"/LL/1.18.30/",
-                "Install":"./plugins/LiteLoader",
-                "IsBinary":true
-            },
-            {
-                "Name":"LiteLoader.Lua.dll",
-                "Path":"/LL/1.18.30/",
-                "Install":"./plugins/LiteLoader",
-                "IsBinary":true
-            },
-            {
-                "Name":"LLMoney.dll",
-                "Path":"/LL/1.18.30/",
-                "Install":"./plugins",
-                "IsBinary":true
-            }
+        ]
+    },
+    "1.19.2":
+    {
+        "notice":[],
+        "Version":"2.3.0",
+        "Files":[
+        ]
+    },
+    "1.19.10":
+    {
+        "notice":[],
+        "Version":"2.3.0",
+        "Files":[
         ]
     },
     "OtherFiles": []
